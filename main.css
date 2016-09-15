@@ -1,18 +1,23 @@
 .container {
 	margin: 2% auto;
 	width: 90%;
+	height: 100vh;
 }
 
 .header {
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 4%;
+	border: 1px solid blue;
+}
+
+.section {
+	width: 100%;
 }
 
 .top-box {
 	width: 30%;
-	height: 20%;
+	height: 80px;
 }
 
 .red {
@@ -25,4 +30,59 @@
 
 .black {
 	background: #4A4A4A;
+}
+
+.text-body {
+	margin-bottom: 4%;
+}
+
+.color-body{
+	height: 30vh;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 2%;
+}
+
+.left{
+	width: 35%;
+	background: #D0021B;
+
+}
+
+.right{
+	width: 65%;
+	background: #4A90E2;
+}
+
+.footer {
+	height: 10%;
+	position: relative;
+}
+
+.footer-flex{
+	display: flex;
+	justify-content: flex-start;
+}
+.footer-section{
+	height: 100%;
+}
+.footer-left {
+	background: #4A90E2;
+	width:70%;
+}
+
+.footer-right{
+	background: #D0021B;
+	width: 30%;
+}
+
+.footer-right-2 {
+	background: #4A4A4A;
+	width: 22%;
+}
+
+.overlap{
+	position: absolute;
+	bottom: 0;
+	right: 4%;
 }
